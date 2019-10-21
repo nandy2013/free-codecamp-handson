@@ -1,16 +1,8 @@
 import React from 'react';
+import HelloFunction from './HelloFunction';
 
 function App() {
-  const JSX = <div className="MyDiv">
-    {/*Adding Comment*/}
-    < h1 > Test header</h1>
-    <p>Test Paragrap</p>
-    <ul>
-      <li>Line1</li>
-      <li>Line2</li>
-      <li>Line3</li>
-    </ul>
-  </div >
+  const JSX = <HelloFunction />
   return JSX;
 }
 
