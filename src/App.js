@@ -1,7 +1,7 @@
 import React from 'react';
 
 function App() {
-  const JSX = <div>
+  const JSX = <div className="MyDiv">
     {/*Adding Comment*/}
     < h1 > Test header</h1>
     <p>Test Paragrap</p>
